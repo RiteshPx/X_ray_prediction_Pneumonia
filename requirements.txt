@@ -1,0 +1,6 @@
+tensorflow==2.x.x
+streamlit
+numpy
+opencv-python
+pillow
+h5py
