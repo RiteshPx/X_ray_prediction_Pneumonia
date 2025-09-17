@@ -1,6 +1,7 @@
-tensorflow==2.x.x
 streamlit
+tensorflow==2.13.0
 numpy
-opencv-python
-pillow
+scikit-learn
+opencv-python-headless
+Pillow
 h5py
