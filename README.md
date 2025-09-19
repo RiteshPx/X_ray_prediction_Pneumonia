@@ -1,5 +1,4 @@
 
-````markdown
 # Chest X-Ray Pneumonia Classifier 🦠
 
 A deep learning project to classify chest X-ray images as "Normal" or "Pneumonia" using a Convolutional Neural Network (CNN) with transfer learning. This project is deployed as an interactive web application with Streamlit.
@@ -41,7 +40,7 @@ Follow these steps to get a local copy of the project up and running.
 To start the Streamlit web application on your local machine, run the following command from the project's root directory:
 ```bash
 streamlit run app.py
-````
+```
 
 This will open the app in your browser at `http://localhost:8501`.
 
@@ -93,10 +92,11 @@ This is an open-source project. Feel free to fork the repository, open an issue,
 ## 📧 Contact
 
 **Name:** Ritesh Parmar
+
 **Email:** parmaritesh17@gmail.com
+
 **GitHub:** https://github.com/RiteshPx/X_ray_prediction_Pneumonia/
 
-```
-```
+
 
 
