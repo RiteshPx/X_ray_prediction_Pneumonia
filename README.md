@@ -1,6 +1,3 @@
-I understand. A `README.md` file requires specific Markdown syntax to render correctly on GitHub. Here is the full `README.md` content, formatted with the correct Markdown syntax, ready for you to copy and paste directly into your file.
-
-It includes all the sections we discussed, such as a project overview, instructions for running the app, an explanation of the project structure, model performance metrics, and a link to the live demo.
 
 ````markdown
 # Chest X-Ray Pneumonia Classifier 🦠
@@ -29,8 +26,8 @@ Follow these steps to get a local copy of the project up and running.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
-    cd [Your-Repo-Name]
+    git clone https://github.com/RiteshPx/X_ray_prediction_Pneumonia.git
+    cd X_ray_prediction_Pneumonia
     ```
 
 2.  **Install dependencies:**
@@ -99,3 +96,4 @@ This is an open-source project. Feel free to fork the repository, open an issue,
 
 ```
 ```
+
