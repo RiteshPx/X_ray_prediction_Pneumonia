@@ -61,12 +61,12 @@ The model's performance was evaluated on a held-out test set. For a medical appl
 ```
               precision    recall  f1-score   support
 
-      Normal      0.98      0.97      0.97       234
-   Pneumonia      0.96      0.97      0.97       390
+      Normal       0.97      0.73      0.83       234
+   Pneumonia       0.86      0.99      0.92       390
 
-    accuracy                           0.97       624
-   macro avg      0.97      0.97      0.97       624
-weighted avg      0.97      0.97      0.97       624
+    accuracy                           0.89       624
+   macro avg       0.91      0.86      0.87       624
+weighted avg       0.90      0.89      0.89       624
 ```
 
 *Note: Values shown are for a hypothetical model. Your actual results may vary.*
@@ -74,8 +74,10 @@ weighted avg      0.97      0.97      0.97       624
 **Confusion Matrix**
 | | **Predicted Normal** | **Predicted Pneumonia** |
 | :--- | :--- | :--- |
-| **Actual Normal** | 227 (TN) | 7 (FP) |
-| **Actual Pneumonia** | 10 (FN) | 380 (TP) |
+| **Actual Normal** | 170 (TN) | 64 (FP) |
+| **Actual Pneumonia** | 5 (FN) | 385 (TP) |
+             
+
 
 *Note: Values shown are for a hypothetical model. Your actual results may vary.*
 
@@ -96,4 +98,5 @@ This is an open-source project. Feel free to fork the repository, open an issue,
 
 ```
 ```
+
 
