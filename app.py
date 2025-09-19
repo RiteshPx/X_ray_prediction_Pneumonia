@@ -8,7 +8,8 @@ import cv2
 @st.cache_resource
 def load_model():
     model = tf.keras.models.load_model('pneumonia_classifier_model.h5')
-    return model
+    # model = tf.keras.models.load_model('pneumonia_classifier_model')
+    return model     
 
 model = load_model()
 
